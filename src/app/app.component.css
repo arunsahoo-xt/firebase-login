@@ -3,4 +3,5 @@ mat-toolbar{
 }
 .content{
     padding: 32px ;
+    padding-inline: 20px;
 }

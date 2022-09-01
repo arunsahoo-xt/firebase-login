@@ -1,0 +1,17 @@
+.home-container{
+    padding-top: 10px;
+    
+}
+.card{
+    background-color:#0d6efd;
+   border-radius: 30px;
+    height: 150px;
+}
+mat-card-title-group{
+    padding: 30px;
+    padding-left:10px ;
+    color: white;
+}
+mat-card-subtitle{
+    color: white;
+}

@@ -41,7 +41,7 @@ this.authService.login(email!,password!).pipe(
     error:'There was an error'
   })
 ).subscribe(()=>{
-  this.router.navigate(['/home']);
+  this.router.navigate(['/dashboard']);
 });
   }
 }

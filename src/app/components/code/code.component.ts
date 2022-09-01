@@ -25,8 +25,13 @@ otp!: string;
     isPasswordInput: false,
     disableAutoFocus: false,
     placeholder: "",
+    // containerClass:"otp-container",
+    // inputClass:"otp-box",
+    containerStyles:{
+      width:"100%", 
+    },
     inputStyles: {
-      width: '50px',
+      width: '13%',
       height: '50px',
     },
   }
@@ -55,7 +60,7 @@ this.authService.signup(name!,email!,password!).pipe(
       error:(err)=>`${err?.message}`
     })
   ).subscribe(()=>{
-    this.router.navigate(['/home'])
+    this.router.navigate(['/dashboard'])
   })
       }).catch((error)=>{
         alert(error.message);
