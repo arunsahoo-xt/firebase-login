@@ -1,3 +1,12 @@
-<p>Enter the OTP sent to <b>{{data.phoneNumber}}</b></p>
-<ng-otp-input (onInputChange)="onOtpChange($event)" [config]="config"></ng-otp-input>
-<button class="btn btn-success mt-4" (click)="handleClick()">Verify</button>
+<div class="otp-container">
+    <div class="center">
+        <img class="" style="width: 200px; height:auto;" src="assets/otpPng.png">
+        </div>
+    <h1><b>OTP Verification</b></h1>
+    
+    
+    <p>Enter the OTP sent to <b>{{data.phoneNumber}}</b></p>
+    <ng-otp-input (onInputChange)="onOtpChange($event)" [config]="config"  inputClass="otp-box" ></ng-otp-input>
+    <span>Didn't receive an OTP?</span><a>Resend OTP</a>
+    <button mat-flat-button class="btn-blue" (click)="handleClick()">Verify & Proceed</button>
+</div>

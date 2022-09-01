@@ -1,2 +1,10 @@
+<div class="home-container">
+  <h2 *ngIf="user$ |async as user">Welcome to our app, {{user.displayName}} !</h2>
+<mat-card class="card">
+    <mat-card-title-group>
+      <mat-card-title>Total Net Worth</mat-card-title>
+      <mat-card-subtitle>$999,999</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card>
 
-<h2 *ngIf="user$ |async as user">Welcome to our app, {{user.displayName}} !</h2>
+</div>

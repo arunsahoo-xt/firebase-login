@@ -1,0 +1,19 @@
+
+.btn-blue{
+    background-color:#0d6efd;
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+/* .otp-box{
+    width:25px;
+    height: 25px;
+    
+} */
+.otp-container {  
+    margin: 0;
+     display: block;  
+     max-width: 500px;   
+         
+    }
